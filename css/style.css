@@ -9,6 +9,7 @@
     display: flex;
     margin-top: 80px;
     margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -28,7 +29,7 @@
 
 .half-width p{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 35px;
     margin-bottom: 65px;;
 }
 
@@ -47,3 +48,34 @@
 }
 
 /*---------- Top Banner Part End ----------*/
+
+/*---------- About Section Start----------*/
+
+
+.about{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+
+.about h3{
+    font-size: 40px;
+    color: #575757;
+    margin-bottom: 25px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 35px;;
+}
+
+#content{
+   margin-left: 200px;
+   margin-top: 150px;
+
+}
+
+#person{
+    width: 30%
+}
