@@ -1,5 +1,5 @@
 /*---------- Font Family ----------*/
-body{
+*{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body{
 /*---------- Top Banner Part Start ----------*/
 .top-banner{
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 5%;
     margin-bottom: 100px;
 }
@@ -17,9 +17,9 @@ body{
 }
 
 .half-width h1{
-    margin-top: 230px;
+    margin-top: 130px;
     margin-bottom: 20px;
-    font-size: 70px;
+    font-size: 60px;
     color: #575757;
 
 }
@@ -53,11 +53,15 @@ body{
 
 
 .about{
-    background: url("images/Frame.jpg");
+    background-image: url("../images/Frame.jpg");
+    background-position: center center;
+    background-size: cover;
     display: flex;
     margin-top: 100px;
-    margin-left: 12%;
-    margin-right: 5%;
+}
+
+.about img{
+    width: 80%;
 }
 
 .about h3{
@@ -69,15 +73,19 @@ body{
 .about p{
     font-size: 20px;
     line-height: 35px;
+    text-align: justify;
 }
 
 #content{
    margin-left: 200px;
    margin-top: 150px;
+   margin-right: 5%;
 
 }
 
 #person{
+    margin-top: 70px;
+    margin-left: 12%;
     width: 30%
 }
 
@@ -99,12 +107,13 @@ body{
 .recipies-content h2{
     font-size: 40px;
     color: #575757;
+    margin-bottom: 25px;
 }
 
 .recipies-content p{
     font-size: 20px;
     line-height: 35px;
-    padding-bottom: 20px;;
+    padding-bottom: 35px;;
 }
 
 .recipies-item{
@@ -130,12 +139,15 @@ body{
     font-size: 30px;
     text-align: center;
     color: #575757;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .itmes p{
     font-size: 20px;
     line-height: 35px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 /*---------- Recipies Section End----------*/
@@ -152,6 +164,7 @@ body{
     font-size: 42px;
     color: #575757;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .popular-content p{
@@ -184,17 +197,20 @@ body{
     text-align: center;
     font-size: 14px;
     color: #575757;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .food-items h3{
     font-size: 25px;
     color: #575757;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .food-items p{
     font-size: 20px;
-    line-height: 35px;
+    line-height: 32px;
     text-align: center;
 }
 
@@ -269,4 +285,32 @@ body{
 
 .social-media p{
     font-size: 20px;
+}
+
+/*---------- Subscribers Section End----------*/
+
+/*---------- Footer Section Start----------*/
+
+footer{
+    background-color: #0B0D17;
+}
+
+.foot{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.foot h1{
+    color: #565657;
+    font-size: 38px;
+}
+
+.foot p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.foot span{
+    color: #FB8B47;
 }
