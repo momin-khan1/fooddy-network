@@ -1,5 +1,5 @@
 /*---------- Font Family ----------*/
-*{
+body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -53,6 +53,7 @@
 
 
 .about{
+    background: url("images/Frame.jpg");
     display: flex;
     margin-top: 100px;
     margin-left: 12%;
@@ -67,7 +68,7 @@
 
 .about p{
     font-size: 20px;
-    line-height: 35px;;
+    line-height: 35px;
 }
 
 #content{
@@ -78,4 +79,162 @@
 
 #person{
     width: 30%
+}
+
+/*---------- About Section End----------*/
+
+/*---------- Recipies Section Start----------*/
+
+.recipies{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.recipies-content{
+    text-align: center;
+}
+
+.recipies-content h2{
+    font-size: 40px;
+    color: #575757;
+}
+
+.recipies-content p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 20px;;
+}
+
+.recipies-item{
+    display: flex;
+}
+
+.itmes{
+    padding: 20px;
+    box-shadow: 1px 1px 25px #949494;
+    margin-left: 45px;
+    border-radius: 5%;
+}
+
+.itmes:nth-child(1) {
+    margin-left: 0;
+  }
+
+.itmes img{
+    width: 100%;
+}
+
+.itmes h3{
+    font-size: 30px;
+    text-align: center;
+    color: #575757;
+}
+
+.itmes p{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+/*---------- Recipies Section End----------*/
+
+/*---------- Whats Popular Section Start----------*/
+
+.popular{
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.popular-content h2{
+    font-size: 42px;
+    color: #575757;
+    text-align: center;
+}
+
+.popular-content p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.popular-items{
+    display: flex;
+}
+
+.food-items{
+    box-shadow: 1px 1px 25px #949494;
+    margin-left: 45px;
+    padding: 20px;
+}
+
+.food-items:nth-child(1) {
+    margin-left: 0;
+  }
+
+.food-items img{
+    width: 100%;
+}
+
+.food-items h5{
+    background-color: #ece9e9;
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #575757;
+}
+
+.food-items h3{
+    font-size: 25px;
+    color: #575757;
+    text-align: center;
+}
+
+.food-items p{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+/*---------- Whats Popular Section End----------*/
+
+/*---------- Testimonials Section Start----------*/
+
+.testimonials{
+    margin-bottom: 90px;
+    background-color: #e6e6e6;
+}
+
+.test-content{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.test-content h1{
+    font-size: 42px;
+    color: #575757;
+    margin: 18px;
+}
+
+.test-content h5{
+    font-size: 20px;
+    color: #575757;
+}
+
+.test-content h6{
+    color: #f8680e;
+    font-size: 18px;
+    margin: 18px;
+}
+
+.test-content p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.test-content img{
+    border-radius: 50%;
 }
