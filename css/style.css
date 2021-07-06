@@ -233,8 +233,40 @@ body{
 .test-content p{
     font-size: 20px;
     line-height: 35px;
+    margin-bottom: 30px;
 }
 
 .test-content img{
     border-radius: 50%;
+}
+
+/*---------- Testimonials Section End----------*/
+
+/*---------- Subscribers Section Start----------*/
+
+.subscribers{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+}
+
+.subscribers-list{
+    display: flex;
+    box-shadow: 1px 1px 25px #949494;
+}
+
+.social-media {
+    width: 33%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.social-media h1{
+    font-size: 70px;
+    margin: 0;
+}
+
+.social-media p{
+    font-size: 20px;
 }
